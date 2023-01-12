@@ -9,7 +9,6 @@ cfg-if = "0.1.7"
 nb = "0.1.2"
 ufmt = "0.1.0"
 paste = "1.0.0"
-avr-device = "0.5"
 embedded-storage = "0.2"
 
 [dependencies.embedded-hal]
@@ -22,3 +21,7 @@ default-features = false
 
 [build-dependencies]
 rustversion = "1.0"
+
+[dependencies.avr-device]
+git = "https://github.com/marcantoinem/avr-device"
+rev = "684d9afd63a26ad053a8c93bec959c2128d1c05e"
