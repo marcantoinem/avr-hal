@@ -27,7 +27,8 @@ disable-device-selection-error = []
 avr-hal-generic = { path = "../../avr-hal-generic/" }
 
 [dependencies.avr-device]
-version = { git = "https://github.com/marcantoinem/avr-device", branch = "add-support-atmega324pa"}
+git = "https://github.com/marcantoinem/avr-device"
+branch = "add-support-atmega324pa"
 
 # Because this crate has its own check that at least one device is selected, we
 # can safely "circumvent" the check in `avr-device`.
