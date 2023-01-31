@@ -24,4 +24,4 @@ rustversion = "1.0"
 
 [dependencies.avr-device]
 git = "https://github.com/marcantoinem/avr-device"
-rev = "684d9afd63a26ad053a8c93bec959c2128d1c05e"
+rev = "a6e1e2b8ddc03ed4e35d0bba7a1645762eeff32e"
