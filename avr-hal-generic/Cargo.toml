@@ -25,3 +25,4 @@ rustversion = "1.0"
 [dependencies.avr-device]
 git = "https://github.com/marcantoinem/avr-device"
 rev = "a6e1e2b8ddc03ed4e35d0bba7a1645762eeff32e"
+features = ["device-selected"]
